@@ -119,14 +119,15 @@
     border-radius: 2px;
     cursor: pointer;
     margin-right: 7px;
-  }
-  .modal-form-checkbox:checked + &::before {
-    background-image: url(../images/icon-check.svg);
-    background-position: center;
-    border-color: var(--accent-color);
-  }
-  .modal-form-checkbox:focus + &::before {
-    border: 2px solid var(--accent-color);
+
+    .modal-form-checkbox:checked + & {
+      background-image: url(../images/icon-check.svg);
+      background-position: center;
+      border-color: var(--accent-color);
+    }
+    .modal-form-checkbox:focus + & {
+      border: 2px solid var(--accent-color);
+    }
   }
 }
 

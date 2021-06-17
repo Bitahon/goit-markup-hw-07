@@ -3,9 +3,12 @@
   justify-content: center;
   margin-bottom: 50px;
 }
-.button-item:not(:last-child) {
-  margin-right: 8px;
+.button-item {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }
+
 .button-porfolio {
   font-family: var(--main-font);
   font-style: normal;

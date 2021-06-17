@@ -1,6 +1,7 @@
 // UTILS
 @import './utils/variables';
 @import './utils/visually-hidden';
+@import './utils/placeholders';
 // BASE
 @import './base/common';
 @import './base/section';
@@ -9,7 +10,6 @@
 // COMPONENTS
 @import './components/modal-btn';
 @import './components/social-list-link';
-@import './components/invitation-social-icon';
 @import './components/backdrop';
 @import './components/modal-window';
 @import './components/modal-form';
